@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/custom")
 public class CustomController {
 
-    @CrossOrigin(origins = {"http://localhost:8080"})
     @GetMapping("")
     public String welcomeMsg(){
         return "Welcome!";
